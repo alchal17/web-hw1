@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(to bottom, #ffffff, #3cfad4);
+}
+
+.nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.lexend-text {
+    font-family: 'Lexend';
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav-button {
+    border-radius: 20px;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 50px;
+    width: 100px;
+}
+
+.introduction-text {
+    font-size: 40px;
+}
+
+.text-with-border {
+    color:  rgba(255, 255, 255, 1);;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.half-width{
+    width: 50%;
+}
+.half-height{
+    height: 50%;
+}
+
+.max-width{
+    width: 100%;
+}
+.max-height{
+    height: 100%;
+}
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button {
+    position: absolute;
+    right: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.section{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.space-around{
+    justify-content: space-around;
+}

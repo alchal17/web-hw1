@@ -3,165 +3,213 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
-<header>
-    <nav>
-        <div class="nav-buttons">
-            <button type="button">About us</button>
-            <button type="button">Article</button>
-            <label>
-                <select>
-                    <option disabled selected hidden>Property</option>
-                    <option value="option1">Option 1</option>
-                    <option value="option2">Option 2</option>
-                    <option value="option3">Option 3</option>
-                </select>
-            </label>
-            <button type="button">Sign up</button>
+<div class="section">
+    <header>
+        <nav class="nav-row">
+            <div class="nav-row">
+                <img src="src/img/logo.png">
+                <p class="lexend-text">Houter</p>
+            </div>
+            <div class="nav-buttons">
+                <button type="button" class="nav-button">About us</button>
+                <button type="button" class="nav-button">Article</button>
+                <button type="button" class="nav-button" style="background-color: aquamarine">Sign up</button>
+            </div>
+        </nav>
+    </header>
+    <div class="row" style="padding-left: 30px; padding-right: 30px">
+        <div class="half-width" style="margin-right: 100px">
+            <section>
+                <div class="introduction-text">
+                    <h1>
+                        Find The Place To<br>
+                        <div class="row">
+                            <div>Live</div>
+                            <div class="text-with-border">Your Dreams</div>
+                        </div>
+                        Easily Here
+                    </h1>
+                    <h6 class="lexend-text" style="font-size: 30px; color: darkgrey">Everything you need about finding
+                        your place to live
+                        will be here, where it will be easier for you</h6>
+                </div>
+                <div class="centered-container">
+                    <div style="position: relative; width: 80%;">
+                        <input placeholder="Search for the location you want!"
+                               style="border-radius: 10px; height: 30px; width: 100%; text-align: center;">
+                        <button type="button" class="search-button">Search></button>
+                    </div>
+                </div>
+                <div class="partnership">
+                    <div class="row max-width" style="justify-content: space-evenly">
+                        <img src="src/img/partner1.png" alt="company1">
+                        <img src="src/img/partner2.png" alt="company2">
+                        <img src="src/img/partner3.png" alt="company3">
+                        <img src="src/img/partner4.png" alt="company4">
+                    </div>
+                </div>
+            </section>
         </div>
-    </nav>
-</header>
-<section>
-    <div class="introduction-text"><h1>
-        Find The Place To<br>
-        Live Your Dreams<br>
-        Easily Here
-    </h1>
-        <h6>Everything you need about finding your place to live will be here, where it will be easier for you</h6>
-    </div>
-    <label for="name"></label><input type="text" id="name" name="name" placeholder="Search for the location you want!">
-    <div class="partnership">
-        <h5>Our partnership</h5>
-        <img src="src/img/shroom-dude-svg.svg" alt="company1">
-        <img src="src/img/shroom-dude-svg.svg" alt="company2">
-        <img src="src/img/shroom-dude-svg.svg" alt="company3">
-        <img src="src/img/shroom-dude-svg.svg" alt="company4">
-    </div>
-</section>
-<aside>
-    <img src="src/img/shroom-dude-svg.svg" alt="logo">
-</aside>
-<div class="featured-house">
-    <nav>
-        <button type="button">House</button>
-        <button type="button">Villa</button>
-        <button type="button">Apartment</button>
-        <button type="button"><</button>
-        <button type="button">></button>
-    </nav>
-    <div class="featured-house-card">
-        <img src="src/img/shroom-dude-svg.svg" alt="logo">
-        <h5>Roselands House</h5>
-        <h6>$ 35.000.000</h6>
-        <div class="user-info">
-            <img src="src/img/shroom-dude-svg.svg" alt="logo">
-            <h5>Dianne Russel</h5>
-            <h6>Manchester, Kentucky</h6>
-        </div>
-    </div>
-    <div class="featured-house-card">
-        <img src="src/img/shroom-dude-svg.svg" alt="logo">
-        <h5>Roselands House</h5>
-        <h6>$ 35.000.000</h6>
-        <div class="user-info">
-            <img src="src/img/shroom-dude-svg.svg" alt="logo">
-            <h5>Dianne Russel</h5>
-            <h6>Manchester, Kentucky</h6>
-        </div>
-    </div>
-    <div class="featured-house-card">
-        <img src="src/img/shroom-dude-svg.svg" alt="logo">
-        <h5>Roselands House</h5>
-        <h6>$ 35.000.000</h6>
-        <div class="user-info">
-            <img src="src/img/shroom-dude-svg.svg" alt="logo">
-            <h5>Dianne Russel</h5>
-            <h6>Manchester, Kentucky</h6>
+        <div class="half-width">
+            <img src="src/img/house1.png" style="width: 100%; height: 100%">
         </div>
     </div>
 </div>
-<div class="lets-tour">
-    <h3>Let's Tour And See Our House!</h3>
-    <h5>Houses recommended by our partners that have been<br>curated to become the home of your dreams!</h5>
-    <div class="house-detail">
-        <h5>House Detail</h5>
-        <div class="house-detail-element">
-            <img src="src/img/shroom-dude-svg.svg" alt="logo">
-            <h6>4 Bedrooms</h6>
-        </div>
-        <div class="house-detail-element">
-            <img src="src/img/shroom-dude-svg.svg" alt="logo">
-            <h6>2 Bathrooms</h6>
-        </div>
-        <div class="house-detail-element">
-            <img src="src/img/shroom-dude-svg.svg" alt="logo">
-            <h6>1 Carport</h6>
-        </div>
-        <div class="house-detail-element">
-            <img src="src/img/shroom-dude-svg.svg" alt="logo">
-            <h6>2 Floors</h6>
+<div class="section" style="margin-top: 40px">
+    <div class="max-width centered-container">
+        <div class="row space-around" style="width: 60%">
+            <div>
+                <p style="font-size: 14px; color: coral">-Our Recommendation</p>
+                <p class="lexend-text">Featured house</p>
+            </div>
+            <div class="row space-evenly">
+                <button type="button" class="nav-button" style="width: 100%">
+                    <div class="row" style="align-items: center">
+                        <img src="src/img/house-icon.png" height="18px" width="18px">
+                        <div class="lexend-text" style="font-size: 18px; margin-left: 3px; color: #04AA6D">House</div>
+                    </div>
+                </button>
+                <button type="button" class="nav-button" style="width: 100%">
+                    <div class="row" style="align-items: center">
+                        <img src="src/img/villa-icon.png" height="18px" width="18px">
+                        <div class="lexend-text" style="font-size: 18px; margin-left: 3px">Villa</div>
+                    </div>
+                </button>
+                <button type="button" class="nav-button" style="width: 100%">
+                    <div class="row" style="align-items: center">
+                        <img src="src/img/apartment.png" height="18px" width="18px">
+                        <div class="lexend-text" style="font-size: 18px; margin-left: 3px">Apartment</div>
+                    </div>
+                </button>
+            </div>
+            <div class="row space-evenly">
+                <button type="button" class="nav-button"><</button>
+                <button type="button" class="nav-button" style="background-color: #04AA6D">
+                    <div style="color: white">></div>
+                </button>
+            </div>
         </div>
     </div>
-    <div class="user-info"><h5>Diana Russel</h5><h6>Manager Director</h6>
-        <aside>
-            <button type="button">Contact now</button>
-        </aside>
-    </div>
-    <aside><img src="src/img/shroom-dude-svg.svg" alt="logo"></aside>
-</div>
-<div class="what-our-user-say">
-    <h2>What Our User Say About Us</h2>
-    <div class="what-our-user-say-card">
-        <img src="src/img/shroom-dude-svg.svg" alt="logo">
-        <div class="review">
-            <h4>
-                Best! I got the house I wanted through Hounter
-            </h4>
-            <h5>
-                Through this website I can get a house with the type and specifications I want very easily, without a
-                complicated process to be able to find information on the house we want.
-            </h5>
-            <div class="user-info">
-                <img src="src/img/shroom-dude-svg.svg" alt="logo">
-                <h5>Diana Russel</h5>
-                <h6>Manager Director</h6>
+    <div class="max-width centered-container">
+        <div class="row" style="justify-content: space-around; width: 60%">
+            <div class="featured-house-card">
+                <img src="src/img/featured_house-1.png" alt="logo" width="340px" height="500px">
+                <h5 style="font-size: 24px" class="lexend-text">Roselands House</h5>
+                <h6 style="font-size: 20px" class="lexend-text">$ 35.000.000</h6>
+                <div class="user-info">
+                    <div class="row">
+                        <img src="src/img/dianne.png" alt="logo">
+                        <div style="margin-left: 8px">
+                            <h5 style="font-size: 20px" class="lexend-text">Dianne Russel</h5>
+                            <h6 style="font-size: 14px; color: #888B97" class="lexend-text">Manchester, Kentucky</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-house-card">
+                <img src="src/img/featured_house-2.png" alt="logo" width="340px" height="500px">
+                <h5 style="font-size: 24px" class="lexend-text">Woodlandside</h5>
+                <h6 style="font-size: 20px" class="lexend-text">$ 20.000.000</h6>
+                <div class="user-info">
+                    <div class="row">
+                        <img src="src/img/robert.png" alt="logo">
+                        <div style="margin-left: 8px">
+                            <h5 style="font-size: 20px" class="lexend-text">Robert Fox</h5>
+                            <h6 style="font-size: 14px; color: #888B97" class="lexend-text">Dr. San Jose, South
+                                Dakota</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-house-card">
+                <img src="src/img/featured_house-3.png" alt="logo" width="340px" height="500px">
+                <h5 style="font-size: 24px" class="lexend-text">Roselands House</h5>
+                <h6 style="font-size: 20px" class="lexend-text">$ 35.000.000</h6>
+                <div class="user-info">
+                    <div class="row">
+                        <img src="src/img/ronald.png" alt="logo">
+                        <div style="margin-left: 8px">
+                            <h5 style="font-size: 20px" class="lexend-text">Ronald Richards</h5>
+                            <h6 style="font-size: 14px; color: #888B97" class="lexend-text">Santa Ana, Illinois</h6>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<div class="find-out-more">
-    <h2>
-        Find out more about
-        selling and buying homes
-    </h2>
-    <button type="button">More Artikel!</button>
-    <div class="find-out-more-card">
-        <img src="src/img/shroom-dude-svg.svg">
-        <aside>
-            <div class="user-info">
-                <img src="src/img/shroom-dude-svg.svg" alt="logo">
-                <h5>Diana Russell</h5>
+<div class="section" style="margin-top: 40px; margin-left: 650px">
+    <div class="max-width centered-container">
+        <div class="row space-around max-width">
+            <div class="half-width">
+                <p style="font-size: 14px; color: coral">-Ready to Sell!</p>
+                <p class="lexend-text">Let’s tour and see our house!</p>
+                <h5 style="font-size: 16px; color: #888B97">Houses recommended by our partners that have been<br>curated
+                    to
+                    become the home of your dreams!</h5>
+                <h5 class="lexend-text" style="font-size: 16px">House Detail</h5>
+                <div class="row">
+                    <div class="row">
+                        <img src="src/img/bedroom_icon.png">
+                        <h6 class="lexend-text" style="font-size: 16px; margin-left: 15px">4 Bedrooms</h6>
+                    </div>
+                    <div class="row" style="margin-left: 100px">
+                        <img src="src/img/bathroom_icon.png">
+                        <h6 class="lexend-text" style="font-size: 16px; margin-left: 15px">2 Bathrooms</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <img src="src/img/carport-icon.png">
+                        <h6 class="lexend-text" style="font-size: 16px; margin-left: 15px">1 Carport</h6>
+                    </div>
+                    <div class="row" style="margin-left: 100px">
+                        <img src="src/img/floor-icon.png">
+                        <h6 class="lexend-text" style="font-size: 16px; margin-left: 15px">2 Floors</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="src/img/dianne.png">
+                    <div style="margin-left: 15px">
+                        <p style="font-size: 18px" class="lexend-text">Dianne Russell</p>
+                        <p style="font-size: 16px; color: #888B97" class="lexend-text">Manager Director</p>
+                    </div>
+                    <button type="button" class="nav-button" style="width: 10%; background-color: #04AA6D">
+                        <div class="row" style="align-items: center">
+                            <img src="src/img/phone-icon.png" height="18px" width="18px">
+                            <div class="lexend-text" style="font-size: 18px; margin-left: 3px; color: #ffffff">Contact
+                                Now
+                            </div>
+                        </div>
+                    </button>
+                </div>
             </div>
-            <h3>
-                The things we need to check when we want to buy a house
-            </h3>
-            <time>6 min read | 24 Apr 2021</time>
-        </aside>
-    </div>
-    <aside>
-        <div class="find-out-more-card-big">
-            <img src="src/img/shroom-dude-svg.svg" alt="logo">
-            <div class="user-info">
-                <img src="src/img/shroom-dude-svg.svg" alt="logo">
-                <h6>Cameron Williamson</h6>
+            <div class="half-width">
+                <img src="src/img/house-review.png" style="width: 400px; height: 400px">
             </div>
-            <h3>12 Things to know before buying a house</h3>
-            <h6>Want to buy a house but are unsure about what we should know, here I will try to explain what we should
-                know and check when we want to buy a house</h6>
-            <time>8 min read | 25 Apr 2021</time>
         </div>
-    </aside>
+    </div>
+</div>
+<div class="section centered-container" style="margin-top: 80px">
+    <div>
+        <div>
+            <p style="font-size: 14px; color: coral; margin-left: 200px">See tips and trick from our partnership</p>
+            <h2 style="margin-left: 200px">
+                Find Out More About<br>
+                Selling And Buying Homes
+            </h2>
+        </div>
+
+        <button type="button" class="nav-button" style="background-color: #04AA6D; margin-left: 300px">
+            <div class="lexend-text" style="font-size: 14px">More Artikel!</div>
+        </button>
+
+
+
+    </div>
 </div>
 <div class="subcribe-for-more">
     <h2>
@@ -171,12 +219,6 @@
     <label>
         <input type="text" placeholder="your email here">
     </label>
-</div>
-<div class="video_example">
-    <video controls width="400" height="300">
-        <source src="src/videos/what_is_love.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
 </div>
 <footer>
     <div class="footer-column">
